@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate</title>
+</head>
+<body>
+    <button id="generateButton">Generate</button>
+
+    <script>
+        document.getElementById('generateButton').addEventListener('click', async () => {
+            const response = await fetch('http://0.0.0.0:3000/generate');
+            if (response.ok) {
+                alert('Generation completed');
+            } else {
+                alert('Error occurred during generation');
+            }
+        });
+    </script>
+</body>
+</html>

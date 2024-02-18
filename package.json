@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "http": "^0.0.1-security",
+    "jimp": "^0.22.10",
+    "path": "^0.12.7",
+    "puppeteer": "^22.0.0",
+    "selenium-webdriver": "^4.17.0"
+  }
+}
